@@ -64,7 +64,7 @@ except:
 ####### CRAWLING TWITTER DATA #######
 # ATTACHMENT CRAWLING
 tweetsPerQuery = 100
-maxTweets = 1000
+maxTweets = 500
 sinceId = None
 maxId = -1
 tweetCount = 0
@@ -76,7 +76,7 @@ file_csv = (name_file + ".csv")
 
 # CODE
 print("\n" + 100 * "=")
-print(f"START DOWNLOAD '{search_key}' TWEETS WITH MAX-COUNT : {maxTweets}".center(100))
+print(f"START DOWNLOAD '{search_key}' TWEETS".center(100))
 print("=" * 100 + "\n")
 
 # use library csv with encode utf-8
