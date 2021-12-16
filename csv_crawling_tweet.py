@@ -32,10 +32,10 @@ print("=" * 100 + "\n")
 # MAKE CLASS AND FUNCTION TO HIDDEN DECLARE API AND TOKEN TWITTER
 class Twitter:
     def __init__(self):
-        self.api_key = "dnKiZSYdax41KdAZ5uQvP6Wlt"
-        self.api_key_secret = "PfDwRJB0lpNwT6Dq9YZb2q97DOgIrMnbK5WmBEf0aCFijK4wvQ"
-        self.access_token = "1331056527931629571-58FTNKGS9M6fB41ZXYEFACjgtb8Lyq"
-        self.access_token_secret = "XJUjOOMcD51VZaXxLBLWr7QFeZlD75H6o9kTubaKE1fNC"
+        self.api_key = ""
+        self.api_key_secret = ""
+        self.access_token = ""
+        self.access_token_secret = ""
 
 # MAKE RETURN FUNCTION TO RETURNS AN OBJECT OF CLASS TWITTER
 def twitter_auth():
